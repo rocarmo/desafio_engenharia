@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="16310485-d692-4ae0-9b4b-2f4f2f6d2d3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/base/13395/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/base/13395/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat_tmp/db_0.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/db_13395.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat/db_13395.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat/global.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eng_site/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data-board" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -77,5 +83,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
