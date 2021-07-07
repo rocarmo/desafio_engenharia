@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16310485-d692-4ae0-9b4b-2f4f2f6d2d3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jenkins/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/base/13395/pg_internal.init" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/global/pg_internal.init" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/db_0.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/db_13395.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat/global.stat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip-21.1.2.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_internal/cli/req_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_internal/cli/req_command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_vendor/tenacity/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Lib/site-packages/pip/_vendor/tenacity/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Scripts/pip3.9.exe" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Scripts/pip3.9.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/eng_env/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_eng/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_eng/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/postmaster.pid" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site_polls/api/data_collect.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_polls/api/data_collect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site_polls/api/data_serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_polls/api/data_serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site_polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_polls/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site_polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/site_polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
