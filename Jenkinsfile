@@ -4,14 +4,14 @@ pipeline {
     stage("build") {
       steps {
         sh """
-          docker build -t teste_jenkins .
+          docker build -t teste_atual .
         """
       }
     }
     stage("run") {
       steps {
         sh """
-          docker run --rm teste_jenkins
+          docker run --rm teste_atual
         """
       }
     }
