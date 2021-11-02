@@ -1,17 +1,16 @@
 pipeline {
-  agent { label "linux" }
   stages {
     stage("build") {
       steps {
         sh """
-          docker build -t hello_there .
+          docker build -t meu_giru .
         """
       }
     }
     stage("run") {
       steps {
         sh """
-          docker run --rm hello_there
+          docker run --rm meu_giru
         """
       }
     }
