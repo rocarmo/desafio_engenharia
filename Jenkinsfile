@@ -1,5 +1,10 @@
 pipeline {
-  agent { label "james" }
+  agent { label "james"
+  environment {
+    PATH = "C:\Program Files\Docker\Docker\resources\bin"
+    PATH = "C:\ProgramData\DockerDesktop\version-bin"
+    }
+  }
   stages {
     stage("build") {
       steps {

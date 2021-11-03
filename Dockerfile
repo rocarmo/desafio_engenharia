@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 RUN jenkins-plugin-cli --plugins "blueocean:1.24.7 docker-workflow:1.26"
 =======
-FROM python:3.9-alpine
+FROM python:3.9
 
 CMD [ "python", "-c", "print('Docker funcionando!')"]
 >>>>>>> Stashed changes
