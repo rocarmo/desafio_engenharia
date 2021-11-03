@@ -4,14 +4,14 @@ pipeline {
     stage("build") {
       steps {
         sh """
-          docker build -t meu_giru .
+          docker build -t meugiru .
         """
       }
     }
     stage("run") {
       steps {
         sh """
-          docker run --rm meu_giru
+          docker run --rm meugiru
         """
       }
     }
