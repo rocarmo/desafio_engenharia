@@ -1,5 +1,8 @@
 pipeline {
-  agent { label "james" }
+  agent {
+    alwaysPull true
+    label "james"
+  }
   stages {
     stage("build") {
       steps {
