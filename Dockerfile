@@ -1,3 +1,5 @@
-FROM python:3.9
+FROM python:3.9-alpine
 
-RUN [ "echo COMNADO FUNFNADO!!"]
+COPY hello_there.py /
+
+CMD [ "python", "hello_there.py"]
