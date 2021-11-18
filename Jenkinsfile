@@ -2,7 +2,6 @@ pipeline {
   agent {
     dockerfile {
         filename "Dockerfile"
-        label "teste_giru"
     }
   }
   stages {
