@@ -1,8 +1,10 @@
 pipeline {
   agent {
-    alwaysPull true
     label "james"
-  }
+        docker {
+            alwaysPull true
+        }
+   }
   stages {
     stage("build") {
       steps {
