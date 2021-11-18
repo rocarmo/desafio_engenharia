@@ -1,11 +1,10 @@
 pipeline {
-  agent { label "james" }
-  docker { alwaysPull true }
+  agent { docker { image python:3.9 } }
   stages {
     stage("build") {
       steps {
         sh """
-          echo esta mensagem indica que os comandos estão funcionando
+          docker build -t meugiru .
         """
       }
     }
