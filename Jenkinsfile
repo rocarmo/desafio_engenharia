@@ -8,7 +8,7 @@ pipeline {
     stage("build") {
       steps {
         sh """
-          print "esta mensagem indica que os comandos estão funcionando"
+          docker build -t meugiru .
         """
       }
     }
