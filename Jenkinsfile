@@ -4,7 +4,7 @@ pipeline {
     stage("build") {
       steps {
         sh """
-          docker --help
+          echo esta mensagem indica que os comandos estão funcionando
         """
       }
     }
