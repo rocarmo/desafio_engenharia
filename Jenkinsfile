@@ -1,5 +1,5 @@
 pipeline {
-  agent { label "linux" }
+  agent { label "james" }
   stages {
     stage("build") {
       steps {
