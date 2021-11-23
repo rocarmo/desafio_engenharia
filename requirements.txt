@@ -2,7 +2,6 @@ appdirs==1.4.4
 asgiref==3.4.1
 certifi==2021.5.30
 charset-normalizer==2.0.3
-cryptography==35.0.0
 distlib==0.3.2
 Django==3.2.9
 djangorestframework==3.12.4
