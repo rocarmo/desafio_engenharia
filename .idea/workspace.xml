@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16310485-d692-4ae0-9b4b-2f4f2f6d2d3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/core.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Dockerfile.old" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1uQ2QpBz7icmVw0zF1mXZq3kA1r" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,7 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data-board" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eng_env/Scripts/python.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
