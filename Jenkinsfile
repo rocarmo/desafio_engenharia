@@ -1,17 +1,10 @@
 pipeline {
   agent { label "james" }
   stages {
-    stage("build") {
-      steps {
-        sh """
-          docker build -t hello_there .
-        """
-      }
-    }
     stage("run") {
       steps {
         sh """
-          docker run --rm hello_there
+          docker-compose run web django-admin startproject composeexample .
         """
       }
     }
