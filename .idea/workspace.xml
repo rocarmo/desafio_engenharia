@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16310485-d692-4ae0-9b4b-2f4f2f6d2d3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi-2021.5.30.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng_env/Lib/site-packages/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/desafio_engenharia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/desafio_engenharia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +23,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Dockerfile.old" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Dockerfile" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1uQ2QpBz7icmVw0zF1mXZq3kA1r" />
@@ -62,11 +55,21 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\rocarmo\Documents\GitHub\desafio_engenharia\eng_env\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
