@@ -6,10 +6,14 @@ pipeline {
         sh """
           docker-compose run web django-admin startproject composeexample .
         """
-        sh """
-          docker-compose up
-        """
       }
+    }
+    stage("start compose") {
+        steps {
+            sh """
+                docker-compose up
+            """
+        }
     }
   }
 }
