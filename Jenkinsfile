@@ -11,7 +11,7 @@ pipeline {
             stage("run") {
                 steps {
                     sh """
-                        docker-compose run web django-admin startproject composeexample .
+                        docker-compose run web django-admin startproject desafio_engenharia .
                     """
                 }
         }
