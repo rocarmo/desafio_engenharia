@@ -18,7 +18,7 @@ pipeline {
             stage("run server") {
                 steps {
                     sh """
-                        docker run django-aux-jenkins
+                        docker run -v /var/run/docker.sock:/var/run/docker.sock django-aux-jenkins
                     """
                 }
             }

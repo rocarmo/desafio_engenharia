@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16310485-d692-4ae0-9b4b-2f4f2f6d2d3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/db_0.stat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/pg_stat_tmp/global.stat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/postmaster.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/postmaster.pid" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
