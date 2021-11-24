@@ -8,10 +8,5 @@ pipeline {
                     """
                 }
             }
-            stage("run project") {
-                steps {
-                    sh ('./start-django.sh')
-                }
-            }
         }
 }
