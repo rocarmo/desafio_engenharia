@@ -8,9 +8,6 @@ pipeline {
                     """
                 }
             }
-        }
-
-        stages {
             stage("create django") {
                 steps {
                     sh """
@@ -18,8 +15,6 @@ pipeline {
                     """
                 }
             }
-        }
-        stages {
             stage("run server") {
                 steps {
                     sh """
