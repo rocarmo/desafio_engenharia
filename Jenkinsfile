@@ -11,7 +11,7 @@ pipeline {
             stage("run server") {
                 steps {
                     sh """
-                        docker-compose up --quiet-pull
+                        docker-compose up
                     """
                 }
             }
