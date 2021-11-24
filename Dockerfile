@@ -10,4 +10,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . /app/
 
-CMD docker-compose up
+CMD django-admin startproject desafio_engenharia

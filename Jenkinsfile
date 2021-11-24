@@ -1,24 +1,17 @@
 pipeline {
     agent { label "james" }
         stages {
-            stage("create aux container") {
+            stage("create server") {
                 steps {
                     sh """
-                        docker build -t django-aux-jenkins .
-                    """
-                }
-            }
-            stage("create django") {
-                steps {
-                    sh """
-                        docker-compose run web django-admin startproject desafio_engenharia .
+                        docker build -t django-server .
                     """
                 }
             }
             stage("run server") {
                 steps {
                     sh """
-                        docker run -v /var/run/docker.sock:/var/run/docker.sock django-aux-jenkins
+                        docker run django-server
                     """
                 }
             }
