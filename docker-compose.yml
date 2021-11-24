@@ -12,7 +12,7 @@ services:
 
   web:
     build: .
-    command: bash -c "python manage.py runserver 0.0.0.0:8000 && docker-compose up"
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/app
     ports:
