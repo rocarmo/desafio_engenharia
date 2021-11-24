@@ -12,5 +12,6 @@ pipeline {
                 steps {
                     sh ('./start-django.sh')
                 }
+            }
         }
 }
