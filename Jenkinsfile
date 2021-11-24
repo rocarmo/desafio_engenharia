@@ -8,7 +8,7 @@ pipeline {
                     """
                 }
         }
-            stage("start compose") {
+            stage("start compose AAAAAAA") {
                 steps {
                     sh """
                         docker-compose up
