@@ -8,5 +8,12 @@ pipeline {
                     """
                 }
             }
+            stage("run server") {
+                steps {
+                    sh """
+                        docker-compose up && exit
+                    """
+                }
+            }
         }
 }
