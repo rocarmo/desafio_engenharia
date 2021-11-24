@@ -7,13 +7,6 @@ pipeline {
                         docker-compose run web django-admin startproject desafio_engenharia .
                     """
                 }
-        }
-            stage("start compose") {
-                steps {
-                    sh """
-                        docker-compose up
-                    """
-                }
             }
         }
 }
