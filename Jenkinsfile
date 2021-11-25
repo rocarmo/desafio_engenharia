@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage("remove trash") {
                 steps {
-                    sh '/trash_remover.sh'
+                    sh './trash_remover.sh'
                 }
             }
             stage("create django") {
