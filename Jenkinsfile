@@ -4,13 +4,13 @@ pipeline {
             stage("create django") {
                 steps {
                     sh """
-                        docker-compose run web django-admin startproject desafio_engenharia .
+                        docker build -t desafio_engenharia .
                     """
                 }
             }
-            stage("run project") {
+            stage("run django") {
                 steps {
-                    sh ('docker-compose up -d -p 8000:8000')
+                    sh ('docker run -d -p 8000:8000 desafio_engenharia')
                 }
             }
         }
