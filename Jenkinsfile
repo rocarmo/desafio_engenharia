@@ -1,6 +1,11 @@
 pipeline {
     agent { label "james" }
         stages {
+            stage("remove trash") {
+                steps {
+                    sh (./trash_remover.sh)
+                }
+            }
             stage("create django") {
                 steps {
                     sh """
