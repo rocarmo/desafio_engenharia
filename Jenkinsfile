@@ -1,19 +1,17 @@
 pipeline {
     agent { label "james" }
         stages {
-            stage("create server") {
+            stage("run") {
+            stage("create django") {
                 steps {
                     sh """
-                        docker build -t django-server .
+                        docker-compose run web django-admin startproject desafio_engenharia .
                     """
                 }
             }
-            stage("run server") {
+            stage("run project") {
                 steps {
-                    sh """
-                        docker run django-server
-                    """
+                    sh ('docker-compose up -d -p 8000:8000')
                 }
-            }
         }
 }
