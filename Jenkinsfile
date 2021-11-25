@@ -1,7 +1,6 @@
 pipeline {
     agent { label "james" }
         stages {
-            stage("run") {
             stage("create django") {
                 steps {
                     sh """
@@ -13,5 +12,6 @@ pipeline {
                 steps {
                     sh ('docker-compose up -d -p 8000:8000')
                 }
+            }
         }
 }
