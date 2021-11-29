@@ -12,4 +12,14 @@ COPY . /app/
 
 EXPOSE 8000:8000
 
-CMD django-admin startproject desafio_engenharia /app && python /app/manage.py runserver 0.0.0.0:8000
+CMD django-admin startproject desafio_engenharia /app
+
+CMD python /app/manage.py startapp polls
+
+COPY /app/project_files/project_desafio_engenharia/urls.py /app/desafio_engenharia
+
+COPY /app/project_files/project_polls/urls.py /app/polls
+
+COPY /app/project_files/project_polls/views.py /app/polls
+
+CMD python /app/manage.py runserver 0.0.0.0:8000
