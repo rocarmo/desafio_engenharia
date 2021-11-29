@@ -12,7 +12,7 @@ fi
 
 echo "Varredura de containers finalizada!"
 echo "Iniciando varredura de imagens..."
-if docker rmi -f desafio_engenharia
+if [ -z $(docker rmi -f desafio_engenharia) ]
 then
   echo "Imagem desafio_engenharia deletada com sucesso!"
 else

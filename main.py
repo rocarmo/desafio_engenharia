@@ -4,9 +4,8 @@ def print_hi():
     client = docker.from_env()
     all_contaiers = client.containers.list()
     container = client.containers.get('jenkins-blueocean')
-    image = client.containers
+    image = client.images.list()
     print(image)
-
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
