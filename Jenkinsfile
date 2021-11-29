@@ -9,7 +9,7 @@ pipeline {
             stage("create django") {
                 steps {
                     sh """
-                        docker build --no-cache -t desafio_engenharia .
+                        docker build -t desafio_engenharia .
                     """
                 }
             }

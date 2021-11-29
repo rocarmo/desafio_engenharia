@@ -14,7 +14,7 @@ EXPOSE 8000:8000
 
 CMD django-admin startproject desafio_engenharia /app
 
-CMD python manage.py startapp polls
+CMD python ./manage.py startapp polls
 
 COPY /project_files/project_desafio_engenharia/urls.py /app/desafio_engenharia
 
