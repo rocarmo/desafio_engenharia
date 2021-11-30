@@ -2,7 +2,7 @@
 
 echo "Iniciando varredura de containers..."
 
-if [ -z $(docker ps | grep 'desafio' | awk '{ print $1 }') ] or [ -z $(docker images | grep 'desafio') ]
+if [ -z $(docker ps | grep 'desafio' | awk '{ print $1 }') ] || [ -z $(docker images | grep 'desafio') ]
 then
   echo "Não há containers para limpar"
 else
